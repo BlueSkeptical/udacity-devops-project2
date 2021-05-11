@@ -39,6 +39,11 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
+![plot](./images/azure app service.png)
+![plot](./images/locust1.png)
+![plot](./images/locust2.png)
+![plot](./images/locust3.png)
+![plot](./images/locust4.png)
 > 
 
 ## Enhancements
