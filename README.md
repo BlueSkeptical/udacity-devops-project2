@@ -16,7 +16,7 @@ Project plan will be in two parts.
 
 * Project running on Azure App Service
 
-![plot](./images/azure\ app\ service.png)
+![plot](./images/locust1.png)
 
 * Project cloned into Azure Cloud Shell
 
