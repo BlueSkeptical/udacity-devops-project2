@@ -8,9 +8,8 @@ Project plan will be in two parts.
 2. Spreadsheet with plan: included in this repository called project-management.xlsx
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+Image below shows the architecture of the project. The project uses Github for source control, Github Actions for CI, Azure Pipeline for CD, and Paas for hosting the app. 
+![plot](./images/architecture.png)
 
 To run the project, first we need to clone the project into Azure cloud shell.
 ![plot](./images/clone_project.png)
@@ -24,15 +23,17 @@ We can run `make all` command from the `Makefile` to check if the app passes all
 Everytime we commit a change to the repository. The Github Actions will be triggered and test the project.
 ![plot](./images/passing_github_actions.png)
 
+The image below shows that the project is successfully deployed using Azure Pipeline.
+![plot](./images/pipeline.png)
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
+The image below shows that the project is running after redeploy using Azure Pipeline.
+![plot](./images/running_app.png)
 
 We can run the app by running `.\make_predict_azure_app.sh`. Below is the result we expect to get.
 ![plot](./images/prediction.png)
 
-* Output of streamed log files from deployed application
+The image below shows the stream logs for the app.
+![plot](./images/logs.png)
 
 Below are images when we do a load testing using locust. To run the locust test, simply run `locust` in the root directory.
 ![plot](./images/locust1.png)
@@ -48,5 +49,4 @@ The project can be improved by adding more automatical testing such as load test
 ## Demo 
 
 If you want to see a quick demo about the project, please visit https://youtu.be/yk27-F0QQg0 for a demo on Youtube.
-
 
