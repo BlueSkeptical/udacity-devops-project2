@@ -16,8 +16,6 @@ Project plan will be in two parts.
 
 * Project running on Azure App Service
 
-![plot](./images/locust1.png)
-
 * Project cloned into Azure Cloud Shell
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
@@ -39,7 +37,11 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-![plot](./images/azure app service.png)
+![plot](./images/azure_app_service.png)
+![plot](./images/clone_project.png)
+![plot](./images/passing_github_actions.png)
+![plot](./images/passing_test.png)
+![plot](./images/prediction.png)
 ![plot](./images/locust1.png)
 ![plot](./images/locust2.png)
 ![plot](./images/locust3.png)
