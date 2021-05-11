@@ -12,34 +12,29 @@ Project plan will be in two parts.
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+To run the project, first we need to clone the project into Azure cloud shell.
+![plot](./images/clone_project.png)
 
-* Project running on Azure App Service
+And then make sure the app is deployed to Azure App Service. The image below shows tha the app is running on Azure App Service.
+![plot](./images/azure_app_service.png)
 
-![plot](./images/locust1.png)
+We can run `make all` command from the `Makefile` to check if the app passes all the tests.
+![plot](./images/passing_test.png)
 
-* Project cloned into Azure Cloud Shell
+Everytime we commit a change to the repository. The Github Actions will be triggered and test the project.
+![plot](./images/passing_github_actions.png)
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-* Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+We can run the app by running `.\make_predict_azure_app.sh`. Below is the result we expect to get.
+![plot](./images/prediction.png)
 
 * Output of streamed log files from deployed application
 
-![plot](./images/azure app service.png)
+Below are images when we do a load testing using locust. To run the locust test, simply run `locust` in the root directory.
 ![plot](./images/locust1.png)
 ![plot](./images/locust2.png)
 ![plot](./images/locust3.png)
