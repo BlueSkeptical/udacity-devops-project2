@@ -1,12 +1,11 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This projects create a CICD pipeline using Azure pipeline that hosting a pre-trained sklearn model that predict housing prices in Boston.
 
 ## Project Plan
-<TODO: Project Plan
-
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+Project plan will be in two parts.
+1. Trello board: https://trello.com/b/6Lt2Xwam/devops-project2
+2. Spreadsheet with plan: included in this repository called project-management.xlsx
 
 ## Instructions
 
@@ -42,10 +41,10 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+The project can be improved by adding more automatical testing such as load test or API test to the pipeline, and we can also create a UI for the project. So everytime we change a code, Azure will automatcailly testing everything we need to ensure a quality release.
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+If you want to see a quick demo about the project, please visit for a demo.
 
 
