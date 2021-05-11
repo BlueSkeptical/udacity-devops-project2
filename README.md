@@ -16,6 +16,8 @@ Project plan will be in two parts.
 
 * Project running on Azure App Service
 
+![plot](./images/azure\ app\ service.png)
+
 * Project cloned into Azure Cloud Shell
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
