@@ -47,6 +47,6 @@ The project can be improved by adding more automatical testing such as load test
 
 ## Demo 
 
-If you want to see a quick demo about the project, please visit for a demo.
+If you want to see a quick demo about the project, please visit https://youtu.be/yk27-F0QQg0 for a demo on Youtube.
 
 
